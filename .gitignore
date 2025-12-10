@@ -9,4 +9,5 @@
 *.jpeg
 *.gif
 *.zip
+__pycache__/
 /output/
