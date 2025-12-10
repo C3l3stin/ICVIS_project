@@ -1,0 +1,12 @@
+/data/
+*.pdf
+*.csv
+*.log
+*.tmp
+*.html
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+/output/
