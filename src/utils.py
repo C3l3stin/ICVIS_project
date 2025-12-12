@@ -36,7 +36,7 @@ def display_image_with_bboxes(img, targets):
     ax.imshow(img.permute(1, 2, 0))  # CHW -> HWC
 
     for t in targets:
-        x, y, w, h = t.numpy()
+        x, y, w, h = t[1:5].numpy()
         rect = patches.Rectangle(
             (x, y),
             w,
