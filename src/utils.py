@@ -33,10 +33,10 @@ def display_image_with_bboxes(img, targets):
     print(f"Number of objects in this image: {len(targets)}")
     # COCO stores bbox as [x, y, width, height]
     fig, ax = plt.subplots(1, 1, figsize=(8, 8))
-    ax.imshow(img.permute(1, 2, 0))  # CHW -> HWC
+    ax.imshow(img)  # CHW -> HWC
 
     for t in targets:
-        x, y, w, h = t[1:5].numpy()
+        x, y, w, h = t.numpy()
         rect = patches.Rectangle(
             (x, y),
             w,
