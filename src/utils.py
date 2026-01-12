@@ -12,12 +12,6 @@ import torch
 
 # print(torch.cuda.is_available())
 
-
-
-
-
-
-
 def pair_split(image_split_dir, label_split_dir):
     pairs = []
     for img in os.listdir(image_split_dir):
