@@ -1,4 +1,5 @@
 /data/
+/dataset_small/
 *.pdf
 *.csv
 *.log
@@ -9,5 +10,6 @@
 *.jpeg
 *.gif
 *.zip
+*.pt
 __pycache__/
 /output/
