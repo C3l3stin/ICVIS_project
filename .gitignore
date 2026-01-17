@@ -1,5 +1,6 @@
 /data/
 /dataset_small/
+/dataset_small1/
 *.pdf
 *.csv
 *.log
