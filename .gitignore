@@ -2,6 +2,7 @@
 /dataset_small/
 /dataset_small1/
 /dataset_small1/
+*.zip
 *.pdf
 *.csv
 *.log
