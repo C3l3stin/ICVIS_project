@@ -3,7 +3,7 @@ Here is the project of the Computer Vision course dealing with car plate recogni
 
 
 ## Setup Instructions
-To set up the environment for this project, please follow the instructions below.
+To set up the environment for this project, please follow the instructions below
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/C3l3stin/ICVIS_project.git
